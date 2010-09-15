@@ -1,21 +1,21 @@
 --- 
-production: 
-  app_revision: 1.1.0_RC_0
+qa: 
+  app_revision: 2.0.0_B_15
 beta: 
   app_revision: 2.0.0_rc_1
-qa: 
-  app_revision: TEST_TAG
-nightly: 
-  app_revision: 1.1.1_B_80_parent_changes
-testing: 
-  app_revision: master
+production: 
+  app_revision: 1.1.0_RC_0
 development: 
   app_revision: 1.1.1_D_25
-preview: 
-  app_revision: 1.1.2-production
+testing: 
+  app_revision: master
+nightly: 
+  app_revision: 1.1.1_B_80_parent_changes
 cucumber: 
   app_revision: 1.1.0_D_0
-test: 
-  app_revision: 1.1.0_D_0
+preview: 
+  app_revision: 1.1.2-production
 staging: 
+  app_revision: 1.1.0_D_0
+test: 
   app_revision: 1.1.0_D_0
