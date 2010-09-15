@@ -1,8 +1,8 @@
 --- 
 qa: 
-  app_revision: TEST_QA_TAG2
+  app_revision: 2.0.0_B_16
 beta: 
-  app_revision: 
+  app_revision: 2.0.0_RC_4
 production: 
   app_revision: 1.1.0_RC_0
 development: 
