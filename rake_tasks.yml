@@ -1,0 +1,10 @@
+qa:
+beta:
+production:
+development:
+testing:
+nightly:
+cucumber:
+preview:
+staging:
+test:
