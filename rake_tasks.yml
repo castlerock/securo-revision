@@ -5,7 +5,6 @@ development:
  - rake release:update_revision
 testing:
   - rake release:update_revision
-  - rake release:update_revision
   - rake db:migrate123
   - rake db:version
 
