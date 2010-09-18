@@ -3,7 +3,7 @@ beta:
 production:
 development:
 testing:
- - rake release:update_revision
+ - rake release:notask
 nightly:
 cucumber:
 preview:
