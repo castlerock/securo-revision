@@ -4,6 +4,11 @@ production:
 development:
  - rake release:update_revision
 testing:
+  - rake release:update_revision
+  - rake release:update_revision
+  - rake db:migrate
+  - rake db:version
+
 nightly:
 cucumber:
 preview:
