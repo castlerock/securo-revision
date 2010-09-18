@@ -5,7 +5,6 @@ qa:
 nightly: 
 testing: 
 - rake db:migrate123
-- rake db:version
 development: 
 - rake release:update_revision
 preview: 
