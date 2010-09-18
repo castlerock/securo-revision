@@ -2,8 +2,8 @@ qa:
 beta:
 production:
 development:
-testing:
  - rake release:notask
+testing:
 nightly:
 cucumber:
 preview:
