@@ -6,7 +6,7 @@ development:
 testing:
   - rake release:update_revision
   - rake release:update_revision
-  - rake db:migrate
+  - rake db:migrate123
   - rake db:version
 
 nightly:
