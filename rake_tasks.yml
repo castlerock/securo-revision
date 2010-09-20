@@ -2,10 +2,16 @@
 qa: 
 beta: 
 production: 
-development: 
-testing: 
+development:
+testing:
+- rake db:version
+- rake db:version
+- rake db:version
+- rake db:version
+- rake db:version
+- rake db:version
 nightly: 
-cucumber: 
+cucumber:
 preview: 
 staging: 
 test: 
