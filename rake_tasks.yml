@@ -1,16 +1,14 @@
 --- 
-qa: 
-beta: 
 production: 
-development: 
-- rake release:update_revision
-testing:
-- rake release:update_revision
+beta: 
+qa: 
+nightly: 
+testing: 
 - rake db:migrate
 - rake db:version
-
-nightly: 
-cucumber: 
+development: 
+- rake release:update_revision
 preview: 
-staging: 
+cucumber: 
 test: 
+staging: 
