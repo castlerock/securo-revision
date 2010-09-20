@@ -1,15 +1,1 @@
----
-production:
-beta:
-qa:
-nightly:
-testing:
-  - rake db:version
-  - rake db:version
-  - rake db:version
-development:
-preview:
-cucumber:
-test:
-staging:
-
+--- ""
