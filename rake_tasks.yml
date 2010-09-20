@@ -1,11 +1,17 @@
 --- 
-production: 
-beta: 
-qa: 
-nightly: 
-testing: 
-development: 
-preview: 
-cucumber: 
-test: 
-staging: 
+qa:
+beta:
+production:
+development:
+testing:
+- rake db:version
+- rake db:version
+- rake db:version
+- rake db:version
+- rake db:version
+- rake db:version
+nightly:
+cucumber:
+preview:
+staging:
+test:
