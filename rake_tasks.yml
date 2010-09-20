@@ -3,8 +3,7 @@ qa:
 beta: 
 production: 
 development: 
-testing: 
-- rake db:migrate
+testing: ""
 nightly: 
 cucumber: 
 preview: 
