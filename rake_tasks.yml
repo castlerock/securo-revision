@@ -3,8 +3,8 @@ production:
 beta: 
 qa: 
 nightly: 
-testing: 
-- rake db:version
+testing: []
+
 development: 
 - rake release:update_revision
 preview: 
