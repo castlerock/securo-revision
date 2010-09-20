@@ -4,7 +4,6 @@ beta:
 qa: 
 nightly: 
 testing: 
-- rake db:migrate
 - rake db:version
 development: 
 - rake release:update_revision
