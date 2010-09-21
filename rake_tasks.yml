@@ -4,7 +4,6 @@ beta:
 production: 
 development: 
 testing: 
-- rake tmp:clear
 - rake tmp:create
 nightly: 
 cucumber: 
