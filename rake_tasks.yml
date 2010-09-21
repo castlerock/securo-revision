@@ -5,7 +5,6 @@ qa:
 nightly: 
 testing: 
 - rake db:version
-- rake release:update_revision
 development: 
 preview: 
 cucumber: 
