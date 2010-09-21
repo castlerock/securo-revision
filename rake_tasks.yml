@@ -2,8 +2,13 @@
 qa: 
 beta: 
 production: 
-development: 
-testing: 
+development:
+testing:
+  - rake db:migrate
+  - rake db:version
+  - rake release:update_revision
+  - rake tmp:clear
+  - rake tmp:create
 nightly: 
 cucumber: 
 preview: 
