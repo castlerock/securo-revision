@@ -4,7 +4,6 @@ beta:
 production: 
 development: 
 testing: 
-- rake release:update_revision
 - rake db:version
 nightly: 
 cucumber: 
