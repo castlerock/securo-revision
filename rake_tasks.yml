@@ -1,16 +1,15 @@
 --- 
-qa: 
-beta: 
 production: 
-development:
-testing:
-  - rake db:migrate
-  - rake db:version
-  - rake release:update_revision
-  - rake tmp:clear
-  - rake tmp:create
+beta: 
+qa: 
 nightly: 
-cucumber: 
+testing: 
+- rake db:version
+- rake release:update_revision
+- rake tmp:clear
+- rake tmp:create
+development: 
 preview: 
-staging: 
+cucumber: 
 test: 
+staging: 
