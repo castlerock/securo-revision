@@ -4,7 +4,6 @@ beta:
 qa: 
 nightly: 
 testing: 
-- rake tmp:clear
 - rake tmp:create
 development: 
 preview: 
