@@ -4,7 +4,6 @@ beta:
 qa: 
 nightly: 
 testing: 
-- rake release:update_revision
 - rake tmp:clear
 - rake tmp:create
 development: 
