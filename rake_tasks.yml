@@ -3,7 +3,12 @@ production:
 beta: 
 qa: 
 nightly: 
-testing: 
+testing:
+  yet_to_run:
+    rake db:migrate
+    rake db:version
+  completed_tasks:
+    rake release:update_release
 development: 
 preview: 
 cucumber: 
