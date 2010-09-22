@@ -10,7 +10,12 @@ testing:
   - rake db:version --trace
   - rake db:migrate --trace
   - rake db:version --trace
-  yet_to_run: 
+  yet_to_run:
+  - rake release:update_release --trace
+  - rake db:migrate --trace
+  - rake db:version --trace
+  - rake db:migrate --trace
+  - rake db:version --trace
 development: 
 preview: 
 cucumber: 
