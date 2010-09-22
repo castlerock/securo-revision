@@ -4,12 +4,12 @@ beta:
 qa: 
 nightly: 
 testing: 
-  completed_tasks: 
+  yet_to_run:
   - rake db:version --trace
   - rake release:update_revision --trace
   - rake db:migrate --trace
   - rake invalid --trace
-  yet_to_run: 
+  completed_tasks: 
 development: 
 preview: 
 cucumber: 
