@@ -5,11 +5,6 @@ qa:
 nightly: 
 testing: 
   completed_tasks: 
-  - rake release:update_release --trace
-  - rake db:migrate --trace
-  - rake db:version --trace
-  - rake db:migrate --trace
-  - rake db:version --trace
   yet_to_run:
   - rake release:update_release --trace
   - rake db:migrate --trace
