@@ -5,10 +5,10 @@ qa:
 nightly: 
 testing:
   yet_to_run:
-    rake db:migrate
-    rake db:version
+    rake db:migrate --trace
+    rake db:version --trace
   completed_tasks:
-    rake release:update_release
+    rake release:update_release --trace
 development: 
 preview: 
 cucumber: 
