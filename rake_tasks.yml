@@ -8,8 +8,8 @@ testing:
   - rake invalid --trace
   - rake db:version --trace
   - rake release:update_revision --trace
-  yet_to_run: 
   - rake db:migrate --trace
+  yet_to_run: 
 development: 
 preview: 
 cucumber: 
