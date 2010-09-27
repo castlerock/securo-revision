@@ -1,15 +1,15 @@
 --- 
-qa: 
-beta: 
 production: 
+beta: 
+qa: 
+nightly: 
 testing: 
-  yet_to_run: 
+  completed_tasks: 
+  - rake invalid --trace
   - rake db:version --trace
+  yet_to_run: 
   - rake release:update_revision --trace
   - rake db:migrate --trace
-  completed_tasks:
-  - rake invalid --trace
-nightly: 
 cucumber: 
-staging: 
 test: 
+staging: 
