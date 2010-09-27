@@ -1,14 +1,14 @@
 --- 
-production: 
-beta: 
 qa: 
-nightly: 
+beta: 
+production: 
 testing: 
   completed_tasks: 
   - rake db:version --trace
-  yet_to_run: 
   - rake release:update_revision --trace
+  yet_to_run: 
   - rake db:migrate --trace
+nightly: 
 cucumber: 
-test: 
 staging: 
+test: 
