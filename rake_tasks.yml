@@ -3,12 +3,12 @@ qa:
 beta: 
 production: 
 testing: 
-  completed_tasks: 
+  yet_to_run:
   - rake db:version --trace
   - rake release:update_revision --trace
   - rake db:migrate --trace
-  yet_to_run: 
-nightly: 
+  completed_tasks: 
+nightly:
 cucumber: 
 staging: 
 test: 
