@@ -6,8 +6,8 @@ testing:
   completed_tasks: 
   - rake db:version --trace
   - rake release:update_revision --trace
-  yet_to_run: 
   - rake db:migrate --trace
+  yet_to_run: 
   - rake invalid --trace
 nightly: 
 cucumber: 
