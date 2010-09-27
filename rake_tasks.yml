@@ -5,13 +5,12 @@ qa:
 nightly: 
 testing: 
   completed_tasks: 
-  - rake invalid --trace
-  - rake db:version --trace
-  - rake release:update_revision --trace
-  - rake db:migrate --trace
   yet_to_run: 
-development: 
-preview: 
+    - rake db:version --trace
+    - rake release:update_revision --trace
+    - rake db:migrate --trace
+    - rake invalid --trace
+nightly: 
 cucumber: 
 test: 
 staging: 
