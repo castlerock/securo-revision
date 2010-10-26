@@ -3,23 +3,23 @@ app:
   app_revision: 2.0.0_RC_37
 qa2: 
   app_revision: 2.0.0_B_37
-qa: 
-  app_revision: 2.0.0_B_37
-beta: 
-  app_revision: 2.0.0_RC_37
 production: 
   app_revision: 1.1.0_RC_0
-development: 
-  app_revision: 1.1.1_D_25
-testing: 
-  app_revision: master
+beta: 
+  app_revision: 2.0.0_RC_37
+qa: 
+  app_revision: 2.0.0_B_37
 nightly: 
   app_revision: 1.1.1_B_80_parent_changes
-cucumber: 
-  app_revision: 1.1.0_D_0
+testing: 
+  app_revision: master
+development: 
+  app_revision: 1.1.1_D_25
 preview: 
   app_revision: 1.1.2-production
-staging: 
-  app_revision: 2.0.0_S_37
+cucumber: 
+  app_revision: 1.1.0_D_0
 test: 
   app_revision: 1.1.0_D_0
+staging: 
+  app_revision: 2.0.0_S_37
