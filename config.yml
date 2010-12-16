@@ -1,25 +1,25 @@
 --- 
 app: 
-  app_revision: 2.1.0_RC_0
+  app_revision: 2.1.0_RC_1
 qa2: 
-  app_revision: 2.1.0_B_0
-qa: 
-  app_revision: 2.1.0_B_0
-beta: 
-  app_revision: 2.1.0_RC_0
+  app_revision: 2.1.0_B_1
 production: 
   app_revision: 1.1.0_RC_0
-development: 
-  app_revision: 1.1.1_D_25
-testing: 
-  app_revision: master
+beta: 
+  app_revision: 2.1.0_RC_1
+qa: 
+  app_revision: 2.1.0_B_1
 nightly: 
   app_revision: 1.1.1_B_80_parent_changes
-cucumber: 
-  app_revision: 1.1.0_D_0
+testing: 
+  app_revision: master
+development: 
+  app_revision: 1.1.1_D_25
 preview: 
   app_revision: 1.1.2-production
-staging: 
-  app_revision: 2.1.0_S_0
+cucumber: 
+  app_revision: 1.1.0_D_0
 test: 
   app_revision: 1.1.0_D_0
+staging: 
+  app_revision: 2.1.0_S_1
