@@ -25,3 +25,5 @@ test:
   app_revision: 1.1.0_D_0  
 mnp: 
   app_revision: MNP_master
+honorstudent: 
+  app_revision: honorstudent
