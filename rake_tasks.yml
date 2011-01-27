@@ -38,3 +38,7 @@ mnp:
 honorstudent: 
   completed_tasks:
   yet_to_run:
+acsi:
+ completed_tasks:
+ yet_to_run: 
+

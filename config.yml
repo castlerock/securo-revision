@@ -27,3 +27,8 @@ staging:
   app_revision: 2.2.0_S_1
 honorstudent: 
   app_revision: honorstudent
+mnp: 
+  app_revision: MNP_master 
+acsi: 
+  app_revision: ACSI_master     
+
