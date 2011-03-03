@@ -29,5 +29,5 @@ staging:
   app_revision: 2.2.0_S_1
 test: 
   app_revision: 1.1.0_D_0
-honorstudent: 
+honorstudentapp: 
   app_revision: honorstudent
