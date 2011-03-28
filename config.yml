@@ -1,31 +1,31 @@
 --- 
 app: 
-  app_revision: 2.2.0_RC_8
+  app_revision: 2.2.0_RC_9
 qa2: 
-  app_revision: 2.2.0_B_8
+  app_revision: 2.2.0_B_9
 mnp: 
   app_revision: MNP_master
+qa: 
+  app_revision: 2.2.0_B_9
+beta: 
+  app_revision: 2.2.0_RC_9
 production: 
   app_revision: 1.1.0_RC_0
-beta: 
-  app_revision: 2.2.0_RC_8
-qa: 
-  app_revision: 2.2.0_B_8
 acsi: 
   app_revision: ACSI_master
-honorstudentapp: 
-  app_revision: 2.2.0_H_2
-nightly: 
-  app_revision: 1.1.1_B_80_parent_changes
-testing: 
-  app_revision: master
 development: 
   app_revision: 1.1.1_D_25
-preview: 
-  app_revision: 1.1.2-production
+testing: 
+  app_revision: master
+nightly: 
+  app_revision: 1.1.1_B_80_parent_changes
+honorstudentapp: 
+  app_revision: 2.2.0_H_2
 cucumber: 
   app_revision: 1.1.0_D_0
+preview: 
+  app_revision: 1.1.2-production
+staging: 
+  app_revision: 2.2.0_S_9
 test: 
   app_revision: 1.1.0_D_0
-staging: 
-  app_revision: 2.2.0_S_8
