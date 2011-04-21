@@ -1,14 +1,14 @@
 --- 
 app: 
-  app_revision: 2.2.0_RC_10
+  app_revision: 2.2.0_RC_9
 qa2: 
-  app_revision: 2.2.0_B_10
+  app_revision: 2.2.0_B_9
 mnp: 
   app_revision: MNP_master
 qa: 
-  app_revision: 2.2.0_B_10
+  app_revision: 2.2.0_B_9
 beta: 
-  app_revision: 2.2.0_RC_10
+  app_revision: 2.2.0_RC_9
 production: 
   app_revision: 1.1.0_RC_0
 acsi: 
@@ -26,6 +26,6 @@ cucumber:
 preview: 
   app_revision: 1.1.2-production
 staging: 
-  app_revision: 2.2.0_S_10
+  app_revision: 2.2.0_S_9
 test: 
   app_revision: 1.1.0_D_0
