@@ -29,3 +29,5 @@ staging:
   app_revision: 2.2.0_S_9
 test: 
   app_revision: 1.1.0_D_0
+cisco:
+  app_revision: cisco
