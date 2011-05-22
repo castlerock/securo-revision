@@ -44,4 +44,6 @@ acsi:
 cisco:
   completed_tasks:
   yet_to_run:
-
+vodafone:
+ completed_tasks:
+ yet_to_run:
