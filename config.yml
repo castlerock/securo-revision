@@ -1,33 +1,33 @@
 --- 
 app: 
-  app_revision: 2.2.0_RC_15
+  app_revision: 2.2.0_RC_16
 qa2: 
-  app_revision: 2.2.0_B_15
+  app_revision: 2.2.0_B_16
 mnp: 
   app_revision: MNP_master
-cisco: 
-  app_revision: cisco
+qa: 
+  app_revision: 2.2.0_B_16
+beta: 
+  app_revision: 2.2.0_RC_16
 production: 
   app_revision: 1.1.0_RC_0
-beta: 
-  app_revision: 2.2.0_RC_15
-qa: 
-  app_revision: 2.2.0_B_15
+cisco: 
+  app_revision: cisco
 acsi: 
   app_revision: ACSI_master
-honorstudentapp: 
-  app_revision: 2.2.0_H_3
-nightly: 
-  app_revision: 1.1.1_B_80_parent_changes
-testing: 
-  app_revision: master
 development: 
   app_revision: 1.1.1_D_25
-preview: 
-  app_revision: 1.1.2-production
+testing: 
+  app_revision: master
+nightly: 
+  app_revision: 1.1.1_B_80_parent_changes
+honorstudentapp: 
+  app_revision: 2.2.0_H_3
 cucumber: 
   app_revision: 1.1.0_D_0
+preview: 
+  app_revision: 1.1.2-production
+staging: 
+  app_revision: 2.2.0_S_16
 test: 
   app_revision: 1.1.0_D_0
-staging: 
-  app_revision: 2.2.0_S_15
