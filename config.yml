@@ -31,3 +31,5 @@ staging:
   app_revision: 2.2.0_S_16
 test: 
   app_revision: 1.1.0_D_0
+solaro_india:
+  app_revision: solaro_india
