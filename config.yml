@@ -1,14 +1,14 @@
 --- 
 app: 
-  app_revision: 2.2.0_RC_16
+  app_revision: 2.2.0_RC_17
 qa2: 
-  app_revision: 2.2.0_B_16
+  app_revision: 2.2.0_B_17
 mnp: 
   app_revision: MNP_master
 qa: 
-  app_revision: 2.2.0_B_16
+  app_revision: 2.2.0_B_17
 beta: 
-  app_revision: 2.2.0_RC_16
+  app_revision: 2.2.0_RC_17
 production: 
   app_revision: 1.1.0_RC_0
 cisco: 
@@ -28,8 +28,8 @@ cucumber:
 preview: 
   app_revision: 1.1.2-production
 staging: 
-  app_revision: 2.2.0_S_16
+  app_revision: 2.2.0_S_17
 test: 
   app_revision: 1.1.0_D_0
-solaro_india:
+solaro_india: 
   app_revision: solaro_india
